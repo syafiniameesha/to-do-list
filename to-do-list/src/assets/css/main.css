@@ -14,7 +14,7 @@ body {
 }
 
 #app {
-  padding: 60px 0;
+  padding: 30px 0;
 }
 
 .container {
@@ -171,7 +171,13 @@ button:disabled:hover{
   color: #999999;
 }
 
+
 /* task items */
+
+.taskItems {
+  max-height: 200px;
+  overflow-y: auto; 
+}
 
 .table-item {
   width: 100%;
